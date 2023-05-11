@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio">
+        <h1>Bienvenidos a mi portafolio</h1>
+      </section>
+
+      <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+          Soy Marco Barbosa Maruri, un estudiante cursando el 6to semestre de la
+          carrera ITC. Me gusta el poder optimizar procesos por medio de la
+          programación y poder ayudar a otros para que puedan aumentar su
+          eficiencia
+        </p>
+        <a href="https://github.com/Marpache9131"><img class="imagen" src="./img/github_logo.png" alt="Logo GitHub"></a>
+      </section>
+
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+
+        <div class="card">
+          <img
+            src="./img/beat_dancer_logo.png"
+            alt="Descripción de la imagen"
+          />
+          <h2>BeatBancer</h2>
+          <p><em> Juego para socio formador PAS.</em></p>
+          <p>
+            La mision de Catsby es ir a rescatar al amor de su vida pero su
+            mundo está basado en el poder de los instrumentos y para lograr su
+            misión debe pasar por varios retos que probarán su habilidad con los
+            instrumentos de percusión.
+          </p>
+          <button
+            class="custom-button"
+            onclick="window.location.href='https://github.com/Bastian1110/BeatDancer';"
+          ></button>
+        </div>
+
+        <div class="card">
+          <img
+            src="./img/alerta_atizapan_logo.png"
+            alt="Descripción de la imagen"
+          />
+          <h2>Alerta Atizapán</h2>
+          <p>
+            <em>
+              Aplicación movil para socio formador Protección Civil de
+              Atizapán.</em
+            >
+          </p>
+          <p>
+            Una aplicación para dispositivos android para que las personas de
+            Atizapán puedan ver alertas que Protección Civil publique, estas
+            alertas se ven en un mapa y un "area afectada" para que puedan ver
+            rutas alternas y no exponerse al riesgo. La aplicación tambien
+            cuenta con un manual de instrucciónes para el "antes", "durante" y
+            "despues" de un acontecimiento.
+          </p>
+          <button
+            class="custom-button"
+            onclick="window.location.href='https://github.com/Bastian1110/Alert-Atizapan';"
+          ></button>
+        </div>
+
+        <div class="card">
+          <img src="./img/ww-logo.png" alt="Descripción de la imagen" />
+          <h2>Wheel Wise</h2>
+          <p>
+            <em> Plataforma para socio formador NDS Cognitive Labs.</em>
+          </p>
+          <p>
+            Wheel Wise es una plataforma de venta de autos para Agencias
+            dandoles una herramienta de venta segura. La plataforma se basa en
+            la busqueda por lenguaje natural, asi dando flexibilidad a los
+            usuarios y ayudando a las agencias a vender más.
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="./img/logo_hsi_core.png" alt="Descripción de la imagen" />
+          <h2>Holding SI CORE</h2>
+          <p>
+            <em> Plataforma de gestión empresarial para Holding SI.</em>
+          </p>
+          <p>
+            Plataforma para gestionar y centralizar los procesos de la empresa
+            para que todos accedan a la misma información de acuerdo a sus
+            permisos y optimizar procesos
+          </p>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="enviar-formulario.php" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Derechos reservados &copy; 2023</p>
+    </footer>
+  </body>
+</html>
