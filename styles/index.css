@@ -1,150 +1,171 @@
 nav {
-	background-color: #536B78;
-	color: #82C0CC;
+  background-color: #536b78;
+  color: #82c0cc;
 }
 
 nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav li {
-	padding: 10px 20px;
+  padding: 10px 20px;
 }
 
 nav a {
-	color: #fff;
-	text-decoration: none;
-	font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
-	background-color: #fff;
-	color: #333;
+  background-color: #fff;
+  color: #333;
 }
 
 body {
-    background-color: #CEE5F2;
+  background-color: #cee5f2;
 }
 
 li {
-    list-style-type: none;
-}   
-
-h1 {
-    color: #637081;
+  list-style-type: none;
 }
 
-h2, h3, h4 {
-    color: #7C98B3;
+h1 {
+  color: #637081;
+}
+
+h2,
+h3,
+h4 {
+  color: #7c98b3;
 }
 
 p {
-    color: #536B78;
+  color: #536b78;
 }
 
 form {
-	max-width: 40rem;
-	margin: 1 auto;
+  max-width: 40rem;
+  margin: 1 auto;
 }
 
 label {
-	display: block;
-	font-weight: bold;
-	margin-top: 20px;
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-	display: block;
-	width: 100%;
-	padding: 10px;
-	margin-top: 5px;
-	border-radius: 5px;
-	border: none;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 input[type="submit"] {
-	background-color: #333;
-	color: #fff;
-	padding: 5px 10px;
-	border: none;
-	border-radius: 5px;
-	margin-top: 20px;
-	cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {
-	background-color: #fff;
-	color: #333;
+  background-color: #fff;
+  color: #333;
 }
 
-
 .custom-button {
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.oauth.io%2Fwp-content%2Fuploads%2F2018%2F02%2Fgithub.jpg&f=1&nofb=1&ipt=c4c366feb082b316f2d2efc5ef3b34d53856930d7a3439bf62416962e0e8978b&ipo=images");
-    background-size: cover;
-    background-position: center;
-    border: none;
-    color: #fff;
-    padding: 15px 40px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .custom-button:hover {
-    opacity: 0.8;
-  }
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.oauth.io%2Fwp-content%2Fuploads%2F2018%2F02%2Fgithub.jpg&f=1&nofb=1&ipt=c4c366feb082b316f2d2efc5ef3b34d53856930d7a3439bf62416962e0e8978b&ipo=images");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+  opacity: 0.8;
+}
 
 .card {
-	max-width: 400px;
-	margin: 1 auto;
-	padding: 20px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	border-radius: 5px;
-	text-align: center;
-    margin-bottom: 0.7rem;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  height: auto;
 }
 
 .card img {
-	max-width: 100%;
-	margin-bottom: 2px;
+  width: 50%;
+  margin-bottom: 2px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
 
 .card h2 {
-	font-size: 24px;
-	margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .card p {
-	font-size: 16px;
-	margin-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .card a {
-	background-color: #333;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .card a:hover {
-	background-color: #fff;
-	color: #333;
+  background-color: #fff;
+  color: #333;
 }
 
 .imagen {
-    height: auto;
-    width: 5%;
+  height: auto;
+  width: 5%;
 }
 
 .imagen:hover {
-    scale: 1.1;
+  scale: 1.1;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+  }
 }
